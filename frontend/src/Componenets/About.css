@@ -1,0 +1,47 @@
+@media (max-width: 400px) {
+    .area {
+      min-height: 22vh; 
+    }
+    .aboutus {
+      min-height: 30vh; 
+    }
+    .bt1{
+        height: 3vh;
+    }
+    .imgs{
+        padding-top: 8vh;
+    }
+}
+@media (min-width: 400px) {
+.area{
+    min-height: 70vh;
+}
+.bt1{
+   
+    height: 6vh;
+}
+.imgs{
+    padding-top: 25vh;
+}
+}
+.aboutus{
+    background-color: white;
+    min-height: 30vh;
+    justify-content:baseline;
+    padding: 20px;
+    border-radius: 50px 50px 0 0;
+}
+.bt1{
+    background: black;
+    color: white;
+    width: 80vw;
+    border-radius: 50px;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;  /* Horizontally center the images */
+    align-items: center;      /* Vertically center the images */
+    gap: 20px; 
+    /* padding-top: 8vh; */
+}
